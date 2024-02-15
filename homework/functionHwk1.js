@@ -12,6 +12,7 @@ function convert(Fahrenheit) {
   console.log((celsius = ((Fahrenheit - 32) * 5) / 9));
 }
 const farenheit = convert(33);
+
 //4
 function divisibleBy55(value) {
   if (value % 55 === 0) {
@@ -20,13 +21,16 @@ function divisibleBy55(value) {
     console.log("false");
   }
 }
+
 let value = divisibleBy55(550);
+
 //5
 function checklength(len) {
   return len.length;
 }
 let len = checklength("rahul");
 console.log(len);
+
 //6
 function concat(aug1, aug2) {
   console.log(aug1 + aug2);
