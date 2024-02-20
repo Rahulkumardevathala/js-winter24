@@ -95,3 +95,4 @@ function checkType(input) {
     return "It’s something else";
   }
 }
+x;
